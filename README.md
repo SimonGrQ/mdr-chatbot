@@ -19,15 +19,30 @@ Te guía paso a paso hasta tener la clasificación + borrador de Documentación 
 Solo escribe el dispositivo. El bot hace el resto.
 
 **Ejemplo de conversación:**
-Tú: Hola, quiero clasificar un nuevo software médico.
-Bot: Perfecto, te ayudaré con la clasificación bajo MDR 2017/745. 
+## Ejemplo de conversación
+
+**Tú:** `Hola, quiero clasificar un nuevo software médico.`
+
+**Bot:** `Perfecto, te ayudaré con la clasificación bajo MDR 2017/745. 
      ¿Cuál es el uso previsto exacto de este software? 
-     ¿Toma decisiones diagnósticas o terapéuticas, o solo monitoriza variables?Tú: Monitoriza SpO2 con un pulsioxímetro de dedo
-Bot: ¿Es invasivo o solo toca la piel? ¿Cuánto dura cada medición?... [el bot pregunta hasta tener todo] ...Bot: 
+     ¿Toma decisiones diagnósticas o terapéuticas, o solo monitoriza variables?`
+
+**Tú:** `Monitoriza SpO2 con un pulsioxímetro de dedo`
+
+**Bot:** `¿Es invasivo o solo toca la piel? ¿Cuánto dura cada medición?`
+
+*... [el bot pregunta hasta tener todo] ...*
+
+**Bot:** 
 Clasificación: Clase IIa
 Regla MDR: Regla 10 
-Razonamiento: Dispositivo activo de diagnóstico para medir SpO2. No monitoriza funciones vitales críticas en tiempo real.Borrador Anexo II (Sección 1):Nombre: Pulsioxímetro de dedoUso previsto: Medición no invasiva de SpO2 y pulsoPrincipio de funcionamiento: LED + fotodiodo transcutáneoClasificación propuesta: Clase IIa (Regla 10)Disclaimer: Borrador informativo y preliminar. Validar con un Notified Body (Organismo Notificado).
+Razonamiento: Dispositivo activo de diagnóstico para medir SpO2. No monitoriza funciones vitales críticas en tiempo real.Borrador Anexo II (Sección 1): 
+- Nombre comercial/genérico: Pulsioxímetro de dedo
+- Uso previsto: Medición no invasiva de SpO2 y pulso
+- Principio de funcionamiento: LED + fotodiodo transcutáneo-
+- Clasificación propuesta: Clase IIa (Regla 10)
 
+*Disclaimer: Borrador informativo y preliminar. Validar con un Notified Body (Organismo Notificado).*
 
 
 ## Datos que el bot te va a preguntar
