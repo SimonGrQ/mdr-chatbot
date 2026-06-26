@@ -5,7 +5,7 @@ Bot que genera doc técnica MDR 2017/745 preguntando solo lo necesario.
 
 ## Instalar
 1. `pip install -r requirements.txt`
-2. Copia `.env.example` a `.env` y mete tu `GEMINI_API_KEY`
+2. Copia `.env.example` a `.env` y mete tu `GEMINI_API_KEY`, puedes conseguir la API key gratis en https://aistudio.google.com/app/apikey
 3. `python app.py`
 
 ## Uso para sanitarios
